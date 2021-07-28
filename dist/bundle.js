@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector(".menu"),t=document.querySelector(".hamburger"),c=document.querySelector(".menu__close");t.addEventListener("click",(()=>{e.classList.toggle("menu--open"),t.classList.toggle("hamburger_active")})),c.addEventListener("click",(()=>{e.classList.remove("menu--open"),t.classList.remove("hamburger_active")}))})();
